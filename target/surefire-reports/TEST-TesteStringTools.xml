@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TesteStringTools" time="0.099" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="d:\Jean\Projetos\StringTools\target\test-classes;d:\Jean\Projetos\StringTools\target\classes;C:\Users\jmane\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\jmane\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jmane\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\jmane\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="D:\Softwares\java\jdk-17.0.9\bin"/>
+    <property name="sun.java.command" value="C:\Users\jmane\AppData\Local\Temp\surefire2541666187978574997\surefirebooter-20240916163114481_3.jar C:\Users\jmane\AppData\Local\Temp\surefire2541666187978574997 2024-09-16T16-31-14_261-jvmRun1 surefire-20240916163114481_1tmp surefire_0-20240916163114481_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="d:\Jean\Projetos\StringTools\target\test-classes;d:\Jean\Projetos\StringTools\target\classes;C:\Users\jmane\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\jmane\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jmane\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\jmane\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jmane"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="D:\Softwares\java\jdk-17.0.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="d:\Jean\Projetos\StringTools"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jmane\AppData\Local\Temp\surefire2541666187978574997\surefirebooter-20240916163114481_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="jmane"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jmane\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jmane\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="d:\Jean\Projetos\StringTools"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Softwares\java\jdk-17.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Softwares\Python312\Scripts\;D:\Softwares\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;D:\Softwares\WinSCP\;D:\Softwares\nodejs\;D:\Softwares\Git\cmd;C:\Users\jmane\AppData\Local\Microsoft\WindowsApps;%IntelliJ IDEA%;C:\Program Files\Azure Data Studio\bin;C:\Users\jmane\AppData\Local\GitHubDesktop\bin;C:\Users\jmane\AppData\Roaming\npm;D:\Softwares\Microsoft VS Code\bin;;C:\Users\jmane\AppData\Local\spicetify;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testaConcatenacao" classname="TesteStringTools" time="0.019"/>
+  <testcase name="testaPrimeraLetraEmMaiusculo" classname="TesteStringTools" time="0.009"/>
+  <testcase name="testaStringEstivarDentroDaLista" classname="TesteStringTools" time="0.002"/>
+  <testcase name="testaPreenchimentoEsquerda" classname="TesteStringTools" time="0.001"/>
+  <testcase name="testaListaNaoVazio" classname="TesteStringTools" time="0.001"/>
+  <testcase name="testaStringNaoEstivarDentroDaLista" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaNVL" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaRetornandoDigitos" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaConversaoBoolean" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaNomeDeClasseValido" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaInversaoDeUmaString" classname="TesteStringTools" time="0.013"/>
+  <testcase name="testaPreenchimentoDireita" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaIdentificadorJavaValido" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaStringNaoVazia" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaTamnho" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaStringVazia" classname="TesteStringTools" time="0.005"/>
+  <testcase name="testaXMLTag" classname="TesteStringTools" time="0.003"/>
+  <testcase name="tastaListaNaoTemAlgumValor" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaDivisaoPorTamanho" classname="TesteStringTools" time="0.0"/>
+  <testcase name="tastaListaTemAlgumValor" classname="TesteStringTools" time="0.007"/>
+  <testcase name="testaStringApenasCaracteres" classname="TesteStringTools" time="0.001"/>
+  <testcase name="testaListaCaracteresValidos" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaRemocaoEspacos" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaStringNaoVaziaEIgual" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaRemocaoAcentos" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaStringParaArray" classname="TesteStringTools" time="0.0"/>
+  <testcase name="testaRemocaoCaracteres" classname="TesteStringTools" time="0.0"/>
+</testsuite>
